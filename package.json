@@ -1,0 +1,24 @@
+{
+  "name": "backmongo",
+  "version": "0.1.0",
+  "description": "Un chat tipo telegram con Mongo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "telegram",
+    "mongo",
+    "server"
+  ],
+  "author": "Carlos Chicaiza",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.3"
+  }
+}
